@@ -1,0 +1,21 @@
+{
+  "manifest_version" : 2,
+  "name" : "http://twitch.tv/poncefesse",
+  "version" : "1.0",
+
+  "description" : "Permet de savoir quand le roi des fleurs Poncefesse est en live !",
+
+  "browser_action" : {
+    "default_popup" : "index.html",
+    "default_icon" : {
+      "64" : "img/poncefesse.jpg"
+    }
+  },
+  "icons" : {
+    "48" : "img/poncefesse-48.jpg",
+    "96" : "img/poncefesse-96.jpg"
+  },
+  "background" : {
+    "scripts" : ["jquery.js", "background.js"]
+  }
+}
